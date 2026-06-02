@@ -23,6 +23,8 @@ conda install tensorboardX
 pip install -r requirements.txt
 ```
 
+DeepSpeed is optional and is only used when fine-tuning with `--enable_deepspeed`. It is not required for the default training scripts above. On Windows, install the base requirements without DeepSpeed. If you need DeepSpeed, install it separately after PyTorch is available, preferably in a Linux or WSL environment.
+
 ---
 
 ## [IMPORTANT] Fine-tune on Your Own Dataset
